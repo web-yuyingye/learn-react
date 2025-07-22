@@ -1,0 +1,34 @@
+.test-css-content {
+  width: 500px;
+  margin: auto;
+  margin-top: 32px;
+}
+.li-item {
+  display: flex;
+  gap: 16px;
+  padding: 8px 0;
+  /* border: 1px solid red; */
+}
+
+.panel-div {
+  display: flex;
+}
+.panel-hidden {
+  display: none;
+}
+
+.panel-title-div {
+  display: flex;
+}
+
+.panel-title-item {
+  font-size: 24px;
+  margin: 0;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.current-panel-title {
+  font-weight: bold;
+  background-color: #f3f3f3;
+}

@@ -1,0 +1,23 @@
+.index {
+  width: 400px;
+  margin: auto;
+}
+
+.menu-list {
+  margin: 16px 0;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.link-active {
+  color: red;
+}
+
+.count-buttons {
+  justify-content: center;
+}

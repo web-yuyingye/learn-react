@@ -1,0 +1,19 @@
+.practise-content {
+  width: 400px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.panel-title {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.panel-title-active {
+  font-weight: bold;
+}

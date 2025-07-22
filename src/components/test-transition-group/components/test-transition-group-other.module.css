@@ -1,0 +1,96 @@
+.content {
+  width: 450px;
+  text-align: left;
+  margin: auto;
+  margin-top: 32px;
+}
+
+.form-data-content {
+  padding: 8px 16px;
+  padding-top: 0;
+  border: 1px solid red;
+  margin-bottom: 16px;
+}
+
+.form-data-item {
+  display: flex;
+  gap: 8px;
+  padding: 8px 0;
+  height: 32px;
+  align-items: center;
+}
+.item-name {
+  width: 80px;
+  text-align: right;
+  font-size: 14px;
+}
+
+.panel-title-div,
+.panel-list-div,
+.panel-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.panel-title-item {
+  font-size: 24px;
+  margin: 0;
+  padding: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.current-panel-title {
+  font-weight: bold;
+  background-color: #f3f3f3;
+}
+
+.panel-ol,
+.panel-list-div,
+.panel-list-div > * {
+  width: 100%;
+}
+
+.panel-hidden {
+  display: none;
+}
+
+.panel-list-item {
+  height: 32px;
+  line-height: 32px;
+  gap: 16px;
+  padding: 4px 0;
+  justify-content: space-between;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+}
+/*
+  过渡动画
+ */
+.trans-from-enter {
+  display: none;
+  opacity: 0;
+}
+
+.trans-from-enter-active {
+  display: block;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.trans-from-exit {
+  opacity: 1;
+  display: block;
+}
+
+.trans-from-exit-active {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.trans-form {
+  display: none;
+}
