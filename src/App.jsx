@@ -17,12 +17,14 @@ function App() {
 
   return (
     <>
-      {/* <TestTransitionGroup></TestTransitionGroup>
-      <TestPractiseCss></TestPractiseCss>
-      <TestPractise></TestPractise>
-      <TestFunction count={count} addCount={addCount}></TestFunction>
-      <TestClass count={count} addCount={addCount}></TestClass>
-      <TestMoveDom></TestMoveDom> */}
+      {/* 
+        <TestTransitionGroup></TestTransitionGroup>
+        <TestPractiseCss></TestPractiseCss>
+        <TestPractise></TestPractise>
+        <TestFunction count={count} addCount={addCount}></TestFunction>
+        <TestClass count={count} addCount={addCount}></TestClass>
+        <TestMoveDom></TestMoveDom> 
+      */}
       <TestRouter></TestRouter>
     </>
   );
